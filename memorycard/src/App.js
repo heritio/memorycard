@@ -8,10 +8,20 @@ import { cardData } from "./data.js";
 function App() {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
+
   return (
     <div className="App">
-      <Header className="App-header" />
-      <div className="card-field"></div>
+      <Header className="App-header" score={score} bestScore={bestScore} />
+      <div className="card-field">
+        {cardData.map((char) => (
+          <Card
+            key={char.id}
+            id={char.id}
+            ourSrc={char.source}
+            cardName={char.name}
+          />
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,14 +1,31 @@
+import angel from "./images/angel.png";
+import druid from "./images/druid.png";
+import firesnake from "./images/firesnake.png";
+import horseman from "./images/horseman.png";
+import king from "./images/kinghorse.png";
+import knight from "./images/knight.png";
+import nazi from "./images/nazi.png";
+import paladin from "./images/paladin.png";
+import crusader from "./images/paladinhorseman.png";
+import succubus from "./images/sucubus.png";
+import treant from "./images/treantspirit.png";
+import wyvern from "./images/wyvern.png";
+
 export const cardData = [
-  { name: "War Angel", source: "./images/angel.jpg" },
-  { name: "Forest Druid", source: "./images/druid.jpg" },
-  { name: "Fire Serpent", source: "./images/firesnake.jpg" },
-  { name: "Horseman", source: "./images/horseman.jpg" },
-  { name: "King", source: "./images/kinghorse.jpg" },
-  { name: "Knight", source: "./images/knight.jpg" },
-  { name: "Nazi Zombie", source: "./images/nazi.jpg" },
-  { name: "Paladin", source: "./images/paladin.jpg" },
-  { name: "Crusader", source: "./images/paladinhorseman.jpg" },
-  { name: "Succubus", source: "./images/sucubus.jpg" },
-  { name: "Treant Spirit", source: "./images/treantspirit.jpg" },
-  { name: "Wyvern", source: "./images/wyvern.jpg" },
+  { name: "War Angel", source: angel, id: 1 },
+  { name: "Forest Druid", source: druid, id: 2 },
+  { name: "Fire Serpent", source: firesnake, id: 3 },
+  { name: "Horseman", source: horseman, id: 4 },
+  { name: "King", source: king, id: 5 },
+  { name: "Knight", source: knight, id: 6 },
+  { name: "Nazi Zombie", source: nazi, id: 7 },
+  { name: "Paladin", source: paladin, id: 8 },
+  { name: "Crusader", source: crusader, id: 9 },
+  { name: "Succubus", source: succubus, id: 10 },
+  {
+    name: "Treant Spirit",
+    source: treant,
+    id: 11,
+  },
+  { name: "Wyvern", source: wyvern, id: 12 },
 ];

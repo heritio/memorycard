@@ -11,8 +11,8 @@ function Header(props) {
         </p>
       </div>
       <div>
-        <p>Score: </p>
-        <p>Best Score:</p>
+        <p>Score: {props.score} </p>
+        <p>Best Score: {props.bestScore}</p>
       </div>
     </div>
   );
