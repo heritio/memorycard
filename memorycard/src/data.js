@@ -11,7 +11,7 @@ import succubus from "./images/sucubus.png";
 import treant from "./images/treantspirit.png";
 import wyvern from "./images/wyvern.png";
 
-export const cardData = [
+export const ourCardData = [
   { name: "War Angel", source: angel, id: 1 },
   { name: "Forest Druid", source: druid, id: 2 },
   { name: "Fire Serpent", source: firesnake, id: 3 },
